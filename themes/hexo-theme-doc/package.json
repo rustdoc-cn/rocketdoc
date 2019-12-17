@@ -1,0 +1,23 @@
+{
+  "name": "hexo-theme-doc",
+  "version": "1.0.0",
+  "description": "hexo theme doc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustdoc-cn/hexo-theme-doc.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "doc"
+  ],
+  "author": "rustdoc-cn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rustdoc-cn/hexo-theme-doc/issues"
+  },
+  "homepage": "https://github.com/rustdoc-cn/hexo-theme-doc#readme"
+}
