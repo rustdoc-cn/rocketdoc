@@ -1,0 +1,13 @@
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.menu ul, .menu li {
+    list-style: none;
+}
+
+.page {
+    padding-left: 230px;
+}
