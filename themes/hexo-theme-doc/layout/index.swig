@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charSet='utf-8' />
-  <title>{{config.title + ' - ' + page.title}}</title>
-  <link href="https://cdn.bootcss.com/github-markdown-css/3.0.1/github-markdown.min.css" rel="stylesheet">
+  {% include "_partial/meta.swig" %}
+  <title>{{config.title}}</title>
+  {% include "_partial/link.swig" %}
 </head>
 <body>
-  <div class='index'>
-    <a href="introduction/what-is-it.html">
-      Get Start
-    </a>
+  {% include "_partial/menu.swig" %}
+  <div class='page'>
+  {% for post in page.posts %}
+    {% if post.indexshow == true %}
+      <div class='page-content'>
+        <h1>{{post.title}}</h1>
+        <div class="markdown-body">{{post.content}}</div>
+      </div>
+    {% endif %}
+  {% endfor %}
   </div>
+  {% include "_partial/script.swig" %}
 </body>
 </html>

@@ -2,12 +2,106 @@
     position: fixed;
     left: 0;
     top: 0;
+    bottom: 0;
+    width: 210px;
+    transition: ease-in-out left .36s;
+    background: #fff;
+    box-shadow: #ccc 0px 1px 3px;
+}
+
+.click .menu{
+    left: -210px;
+}
+
+.menu .toggle {
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.menu .toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #171f26;
+    border-radius: 3px;
+    margin: 5px 5px;
+}
+
+.menu .toggle .up {
+    margin-top: 8px;
+}
+
+.menu header {
+    height: 52px;
+    line-height: 52px;
+    padding-left: 40px;
+    background: #171f26;
+    color: #eee;
 }
 
 .menu ul, .menu li {
     list-style: none;
 }
 
+.menu .menu-nav {
+    height: calc(100% - 52px);
+    -webkit-overflow-scrolling : touch;
+    overflow-y: auto;
+}
+
+.menu .nav1>span {
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 0;
+    display: inline-block;
+    color: #0e83cd;
+    font-weight: bold;
+}
+
+.menu .nav2 {
+    padding-left: 0;
+}
+
+.menu .nav2 a {
+    color: #444;
+    text-decoration: none;
+    padding: 7px 0;
+    display: block;
+}
+
+.menu .nav2 a:hover, .menu .nav2 a.active {
+    color: #1094e8;
+}
+
 .page {
     padding-left: 230px;
+    transition: ease-in-out padding .36s;
+}
+
+.click .page {
+    padding-left: 20px;
+}
+
+@media (max-width: 991px) {
+
+    .menu {
+        left: -210px;
+    }
+    
+    .click .menu{
+        left: 0;
+    }
+
+    .page {
+        padding-left: 20px;
+    }
+    
+    .click .page {
+        padding-left: 20px;
+    }
+
 }

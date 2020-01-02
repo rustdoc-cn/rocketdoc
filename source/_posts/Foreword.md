@@ -1,10 +1,9 @@
 ---
 layout: default
-id: what-is-it
-title: What is it?
-next: how-it-works.html
+id: Foreword
+title: 前言
 categories:
-- introduction
+- Introduction
 ---
 
 This is our what it is markdown file

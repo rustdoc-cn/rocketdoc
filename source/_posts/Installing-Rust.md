@@ -1,10 +1,9 @@
 ---
 layout: default
-id: how-it-works
-title: How it works?
-next: installation.html
+id: Installing-Rust
+title: 安装 Rust
 categories:
-- introduction
+- Getting-Started
 ---
 
 This is our what it is markdown file

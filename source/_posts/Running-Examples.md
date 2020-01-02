@@ -1,10 +1,9 @@
 ---
 layout: default
-id: installation
-title: Installation
-next: using.html
+id: Running-Examples
+title: 运行示例
 categories:
-- usage
+- Quickstart
 ---
 
 This is our what it is markdown file
