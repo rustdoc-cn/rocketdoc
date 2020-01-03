@@ -89,12 +89,17 @@ body {
 }
 
 .page {
-    padding: 15px 10px 130px 230px;
+    padding: 15px 15px 130px 230px;
     transition: ease-in-out padding .36s;
 }
 
 .click .page {
     padding-left: 20px;
+}
+
+.markdown-body p {
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
 
 @media (max-width: 991px) {
