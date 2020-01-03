@@ -11,7 +11,6 @@
   {% for post in page.posts %}
     {% if post.indexshow == true %}
       <div class='page-content'>
-        <h1>{{post.title}}</h1>
         <div class="markdown-body">{{post.content}}</div>
       </div>
     {% endif %}

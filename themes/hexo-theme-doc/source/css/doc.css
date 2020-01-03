@@ -89,7 +89,7 @@ body {
 }
 
 .page {
-    padding-left: 230px;
+    padding: 15px 10px 130px 230px;
     transition: ease-in-out padding .36s;
 }
 
