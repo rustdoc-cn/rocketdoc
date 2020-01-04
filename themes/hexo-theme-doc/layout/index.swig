@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
   {% include "_partial/meta.swig" %}
   <title>{{config.title}}</title>

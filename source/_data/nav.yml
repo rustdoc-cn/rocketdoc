@@ -15,7 +15,7 @@
   items:
   - id: Installing-Rust
     title: 安装 Rust
-  - id: Hello-world
+  - id: Hello-World
     title: 你好，世界！
 - category: Overview
   title: 总览

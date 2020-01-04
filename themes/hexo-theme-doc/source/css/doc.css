@@ -114,6 +114,15 @@ body {
     line-height: 1.6;
 }
 
+.markdown-body figure.highlight {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.markdown-body td.gutter, .markdown-body td.code {
+    padding: 0;
+}
+
 @media (max-width: 991px) {
     
     .click .bg {
