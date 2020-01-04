@@ -13,6 +13,12 @@ $(function(){
             }
             click = !click;
         });
+
+        var bg = $('.bg');
+        bg.on('click', function() {
+            body.removeClass('click');
+            click = false;
+        })
     })();
 
 })

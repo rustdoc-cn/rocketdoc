@@ -22,3 +22,4 @@
         {% endfor %}
     </nav>
 </div>
+<div class="bg"></div>
