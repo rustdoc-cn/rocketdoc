@@ -2,8 +2,6 @@
 layout: default
 id: Installing-Rust
 title: 安装 Rust
-categories:
-- Getting-Started
 ---
 
 # 入门

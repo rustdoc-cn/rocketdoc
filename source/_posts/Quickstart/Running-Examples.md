@@ -2,8 +2,6 @@
 layout: default
 id: Running-Examples
 title: 运行示例
-categories:
-- Quickstart
 ---
 
 # 快速开始

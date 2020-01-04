@@ -5,7 +5,7 @@
         <span></span>
     </div>
     <header>
-        {{config.title}}
+        <a href='{{ url_for("/") }}'>{{config.title}}</a>
     </header>
     <nav class='menu-nav'>
         {% for section in site.data.nav %}

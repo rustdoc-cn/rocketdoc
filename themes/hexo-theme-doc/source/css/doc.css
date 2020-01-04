@@ -29,6 +29,11 @@ body {
     left: -210px;
 }
 
+.menu header a {
+    color: #eee;
+    text-decoration: none;
+}
+
 .menu .toggle {
     width: 33px;
     height: 33px;

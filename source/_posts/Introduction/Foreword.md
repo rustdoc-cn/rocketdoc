@@ -2,8 +2,6 @@
 layout: default
 id: Foreword
 title: 前言
-categories:
-- Introduction
 ---
 
 ## 前言

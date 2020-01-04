@@ -2,12 +2,9 @@
 layout: default
 id: Audience
 title: 读者
-indexshow: true
-categories:
-- Introduction
 ---
 
-# 介绍
+# 简介
 
 Rocket是Rust的Web框架。如果愿意，您可以将Rocket视为[Rails](http://rubyonrails.org/)，[Flask](http://flask.pocoo.org/)，[Bottle](http://bottlepy.org/docs/dev/index.html)和[Yesod](http://www.yesodweb.com/)的一种更加灵活，友好的混合体。我们更喜欢将Rocket视为新事物。Rocket的目标是快速，轻松和灵活，同时尽可能提供有保证的安全性。重要的是，Rocket还旨在变得*有趣*，它通过确保您编写完成任务所需的代码更少来实现这一点。
 

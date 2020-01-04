@@ -43,7 +43,7 @@ This is our what it is markdown file
 - three
 ```
 
-"`---`" 包裹的内容为页面配置文件，其中`id`是将会生成的静态文件名；`title`是显示标题名；`indexshow`是默认首页页面，为`true`则设为首页；`categories`是分类。
+"`---`" 包裹的内容为页面配置文件，其中`id`是markdown文件名，也是将会生成的静态文件名；`title`是显示标题名；`indexshow`是默认首页页面，为`true`则设为首页；`categories`是分类，也可以删除`categories`配置，并在`_data`目录下建立相应的文件夹，如：`introduction`，将`hello-world.md`移到`introduction`下。
 
 "`---`" 以下是markdown内容。
 

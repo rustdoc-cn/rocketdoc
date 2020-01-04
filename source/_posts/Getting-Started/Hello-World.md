@@ -2,8 +2,6 @@
 layout: default
 id: Hello-World
 title: 你好，世界！
-categories:
-- Getting-Started
 ---
 
 ## 你好，世界！
@@ -39,7 +37,7 @@ fn main() {
 }
 ```
 
-我们现在不会确切解释该程序的功能。我们将其留给指南的其余部分。简而言之，它将创建一条`index`路由，将该路由 *安装* 在 `/` 路径上，然后启动应用程序。使用`cargo run`编译并运行程序。您应该看到以下内容：
+我们现在不会确切解释该程序的功能。我们将其留给指南的其余部分。简而言之，它将创建一条`index`路由，将该路由 *绑定* 在 `/` 路径上，然后启动应用程序。使用`cargo run`编译并运行程序。您应该看到以下内容：
 
 ```shell
 🔧  Configured for development.
