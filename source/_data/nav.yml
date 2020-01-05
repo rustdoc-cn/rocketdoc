@@ -28,7 +28,7 @@
   - id: Routing
     title: 路由
   - id: Mounting
-    title: 绑定
+    title: 挂载
   - id: Launching
     title: 启动
 
