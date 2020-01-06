@@ -36,7 +36,7 @@
   title: 请求 Requests
   items:
   - id: Methods
-    title: 方法
+    title: 请求方法 Methods
   - id: Dynamic-Paths
     title: 动态路径
   - id: Forwarding
@@ -134,7 +134,7 @@
   - id: Retrieving-Pastes
     title: 检索粘贴
   - id: Conclusion
-    title: 总结！
+    title: 总结
 
 - category: Conclusion
   title: 总结
