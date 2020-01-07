@@ -40,7 +40,7 @@
   - id: Dynamic-Paths
     title: 动态路径
   - id: Forwarding
-    title: 转发
+    title: 匹配转发
   - id: Query-Strings
     title: 查询字符串
   - id: Request-Guards

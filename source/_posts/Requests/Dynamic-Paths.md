@@ -32,9 +32,9 @@ fn hello(name: String, age: u8, cool: bool) -> String {
 
 ### 注意：Rocket将原始字符串与解码字符串分开键入。
 
-您可能已经[`RawStr`](https://api.rocket.rs/v0.4/rocket/http/struct.RawStr.html)在上面的代码示例中注意到了一个陌生的类型。这是Rocket提供的一种特殊类型，代表HTTP消息中未经过滤，未经验证和未经解码的原始字符串。它的存在是为了验证串输入，通过类型，例如表示分离`String`，`&str`和`Cow`，从未经验证的输入，由下式表示`&RawStr`。它还提供了有用的方法来将未验证的字符串转换为已验证的字符串。
+你可能在上面例子的代码里注意到了一个不熟悉的类型 [`RawStr`](https://api.rocket.rs/rocket/http/struct.RawStr.html) 。这是Rocket提供的特殊类型，表示直接从HTTP信息中获取的不明确的，没有验证的，没有解码的，原始字符串。`String`，`&str`，`Cow`表示的验证过的字符串，他们的区别是，`&RawStr`用来获取未经验证的输入。它提供了的方法很方便的可以将未验证的字符串转化为验证过的字符串。
 
-因为是`&RawStr` 实现了 [`FromParam`](https://api.rocket.rs/v0.4/rocket/request/trait.FromParam.html)，所以它可以用作动态段的类型，如上面的示例所示，其中的值表示可能未解码的字符串。相比之下，一个`String`保证被解码。应该使用哪个取决于您是要直接但潜在地不安全地访问字符串（`&RawStr`），还是要以分配为代价安全地访问字符串（`String`）。
+`&RawStr`实现了[`FromParam`](https://api.rocket.rs/rocket/request/trait.FromParam.html)特性，因此在上面的例子中，它可以作为路径动态参数的类型。当作为路径动态参数的类型时，`RawStr`指向一个潜在的未解码的字符串。  相比之下，`String`可以保证是解码之后的。使用哪一个，取决于你的目的，如果允许不安全的访问则使用`&RawStr`，反之则使用`String`。
 
 ### 多段路径
 
