@@ -71,10 +71,10 @@
     title: 类型化Uri
 
 - category: State
-  title: 托管状态 State
+  title: 状态 State
   items:
   - id: Managed-State
-    title: 管理状态
+    title: 托管状态
   - id: Request-Local-State
     title: 请求本地状态
   - id: Databases
