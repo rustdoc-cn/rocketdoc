@@ -1,5 +1,6 @@
 {
   "srcDir": "source/_posts",
+  "outDir": "docs",
   "baseDir": "/rocketdoc/",
   "title": "ROCKET指南",
   "nav": [
