@@ -1,0 +1,124 @@
+{
+  "srcDir": "source/_posts",
+  "baseDir": "/rocketdoc/",
+  "title": "ROCKET指南",
+  "nav": [
+    {
+      "text": "首页",
+      "link": ""
+    }
+  ],
+  "sidebar": [
+    "README.md",
+    {
+      "text": "简介",
+      "children": [
+        "Introduction/Audience.md",
+        "Introduction/Foreword.md"
+      ]
+    },
+    {
+      "text": "快速开始",
+      "children": [
+        "Quickstart/Running-Examples.md"
+      ]
+    },
+    {
+      "text": "入门",
+      "children": [
+        "Getting-Started/Installing-Rust.md",
+        "Getting-Started/Hello-World.md"
+      ]
+    },
+    {
+      "text": "概述",
+      "children": [
+        "Overview/Lifecycle.md",
+        "Overview/Routing.md",
+        "Overview/Mounting.md",
+        "Overview/Launching.md"
+      ]
+    },
+    {
+      "text": "请求 Requests",
+      "children": [
+        "Requests/Methods.md",
+        "Requests/Dynamic-Paths.md",
+        "Requests/Forwarding.md",
+        "Requests/Query-Strings.md",
+        "Requests/Request-Guards.md",
+        "Requests/Cookies.md",
+        "Requests/Format.md",
+        "Requests/Body-Data.md",
+        "Requests/Error-Catchers.md"
+      ]
+    },
+    {
+      "text": "响应 Responses",
+      "children": [
+        "Responses/Responder.md",
+        "Responses/Custom-Responders.md",
+        "Responses/Implementations.md",
+        "Responses/Rocket-Responders.md",
+        "Responses/Templates.md",
+        "Responses/Typed-URIs.md"
+      ]
+    },
+    {
+      "text": "状态 State",
+      "children": [
+        "State/Managed-State.md",
+        "State/Request-Local-State.md",
+        "State/Databases.md"
+      ]
+    },
+    {
+      "text": "整流罩 Fairings",
+      "children": [
+        "Fairings/Overview.md",
+        "Fairings/Implementing.md",
+        "Fairings/Ad-Hoc-Fairings.md"
+      ]
+    },
+    {
+      "text": "测试",
+      "children": [
+        "Testing/Local-Dispatching.md",
+        "Testing/Validating-Responses.md",
+        "Testing/Testing-Hello-World.md",
+        "Testing/Codegen-Debug.md"
+      ]
+    },
+    {
+      "text": "配置",
+      "children": [
+        "Configuration/Environment.md",
+        "Configuration/Rocket.toml.md",
+        "Configuration/Data-Limits.md",
+        "Configuration/Extras.md",
+        "Configuration/Environment-Variables.md",
+        "Configuration/Programmatic.md",
+        "Configuration/Configuring-TLS.md"
+      ]
+    },
+    {
+      "text": "Pastebin 教程",
+      "children": [
+        "Pastebin/Finished-Product.md",
+        "Pastebin/Getting-Started.md",
+        "Pastebin/Index.md",
+        "Pastebin/Uploading.md",
+        "Pastebin/Retrieving-Pastes.md",
+        "Pastebin/Conclusion.md"
+      ]
+    },
+    {
+      "text": "总结",
+      "children": [
+        "Conclusion/Getting-Help.md",
+        "Conclusion/Whats-Next.md"
+      ]
+    }
+  ]
+}
+  

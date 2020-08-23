@@ -1,0 +1,139 @@
+<!doctype html><html class="" data-reactroot=""><head><base href="/rocketdoc/"/>
+<meta data-react-helmet="true" charset="utf-8"/><meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1"/>
+<title data-react-helmet="true">数据库 · ROCKET指南</title>
+<link data-react-helmet="true" id="prismTheme" rel="stylesheet" href="assets/prism.css"/><link data-react-helmet="true" rel="stylesheet" href="assets/index.css"/>
+<script data-react-helmet="true" >
+    const shouldSetIsDark = document.cookie.includes('is_dark=1') ? true : document.cookie.includes('is_dark=0') ? false : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (shouldSetIsDark) {
+      document.documentElement.classList.add('is_dark');
+      document.getElementById('prismTheme').href = "assets/prism_tomorrow.css";
+    }
+  </script>
+</head><body><header><h1 class="hide_on_mobile"><a href="">ROCKET指南</a></h1><nav><ul><li class="show_on_mobile flex_center"><a class="czs-menu-l" href="#" style="background-image:url(&quot;assets/czs-menu-l.svg&quot;)"></a></li><li class="show_on_mobile"><h1 class="mobile_title"><a href="">ROCKET指南</a></h1></li><li class="hide_on_mobile"><a href="">首页</a></li><li style="flex-grow:1"></li><li class="toggle_dark flex_center"><span class="czs-sun" style="background-image:url(&quot;assets/czs-sun.svg&quot;)"></span><span class="czs-sun-l" style="background-image:url(&quot;assets/czs-sun-l.svg&quot;)"></span><span class="czs-moon" style="background-image:url(&quot;assets/czs-moon.svg&quot;)"></span><span class="czs-moon-l" style="background-image:url(&quot;assets/czs-moon-l.svg&quot;)"></span></li></ul></nav></header><aside class="sidebar"><ol><li class=""><a href="#" class="nav_link no_link">Rocket编程指南</a></li><li class="unfold"><a href="#" class="nav_link no_link">简介<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Introduction/Audience.html" class="nav_link">读者</a></li><li class=""><a href="Introduction/Foreword.html" class="nav_link">前言</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">快速开始<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Quickstart/Running-Examples.html" class="nav_link">运行示例</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">入门<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Getting-Started/Installing-Rust.html" class="nav_link">安装 Rust</a></li><li class=""><a href="Getting-Started/Hello-World.html" class="nav_link">你好，世界！</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">概述<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Overview/Lifecycle.html" class="nav_link">生命周期</a></li><li class=""><a href="Overview/Routing.html" class="nav_link">路由</a></li><li class=""><a href="Overview/Mounting.html" class="nav_link">挂载</a></li><li class=""><a href="Overview/Launching.html" class="nav_link">启动</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">请求 Requests<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Requests/Methods.html" class="nav_link">方法</a></li><li class=""><a href="Requests/Dynamic-Paths.html" class="nav_link">动态路径</a></li><li class=""><a href="Requests/Forwarding.html" class="nav_link">匹配转发</a></li><li class=""><a href="Requests/Query-Strings.html" class="nav_link">查询字符串</a></li><li class=""><a href="Requests/Request-Guards.html" class="nav_link">请求防护</a></li><li class=""><a href="Requests/Cookies.html" class="nav_link">Cookies</a></li><li class=""><a href="Requests/Format.html" class="nav_link">格式</a></li><li class=""><a href="Requests/Body-Data.html" class="nav_link">正文数据</a></li><li class=""><a href="Requests/Error-Catchers.html" class="nav_link">你好，世界！</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">响应 Responses<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Responses/Responder.html" class="nav_link">响应器</a></li><li class=""><a href="Responses/Custom-Responders.html" class="nav_link">自定义响应器</a></li><li class=""><a href="Responses/Implementations.html" class="nav_link">实现响应器</a></li><li class=""><a href="Responses/Rocket-Responders.html" class="nav_link">Rocket响应器</a></li><li class=""><a href="Responses/Templates.html" class="nav_link">模板</a></li><li class=""><a href="Responses/Typed-URIs.html" class="nav_link">类型化Uri</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">状态 State<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="State/Managed-State.html" class="nav_link">管理状态</a></li><li class=""><a href="State/Request-Local-State.html" class="nav_link">请求本地状态</a></li><li class=""><a href="State/Databases.html" class="nav_link active">数据库</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">整流罩 Fairings<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Fairings/Overview.html" class="nav_link">概述</a></li><li class=""><a href="Fairings/Implementing.html" class="nav_link">实现</a></li><li class=""><a href="Fairings/Ad-Hoc-Fairings.html" class="nav_link">临时 Fairings</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">测试<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Testing/Local-Dispatching.html" class="nav_link">本地调试</a></li><li class=""><a href="Testing/Validating-Responses.html" class="nav_link">验证响应</a></li><li class=""><a href="Testing/Testing-Hello-World.html" class="nav_link">测试 Hello World！</a></li><li class=""><a href="Testing/Codegen-Debug.html" class="nav_link">代码生成调试</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">配置<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Configuration/Environment.html" class="nav_link">环境</a></li><li class=""><a href="Configuration/Rocket.toml.html" class="nav_link">Rocket配置文件</a></li><li class=""><a href="Configuration/Data-Limits.html" class="nav_link">数据限制</a></li><li class=""><a href="Configuration/Extras.html" class="nav_link">附加功能</a></li><li class=""><a href="Configuration/Environment-Variables.html" class="nav_link">环境变量</a></li><li class=""><a href="Configuration/Programmatic.html" class="nav_link">程式化</a></li><li class=""><a href="Configuration/Configuring-TLS.html" class="nav_link">配置TLS</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">Pastebin 教程<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Pastebin/Finished-Product.html" class="nav_link">成品</a></li><li class=""><a href="Pastebin/Getting-Started.html" class="nav_link">入门</a></li><li class=""><a href="Pastebin/Index.html" class="nav_link">主页</a></li><li class=""><a href="Pastebin/Uploading.html" class="nav_link">上传</a></li><li class=""><a href="Pastebin/Retrieving-Pastes.html" class="nav_link">检索粘贴</a></li><li class=""><a href="Pastebin/Conclusion.html" class="nav_link">总结</a></li></ol></li><li class="unfold"><a href="#" class="nav_link no_link">总结<span class="czs-angle-up-l" style="background-image:url(&quot;assets/czs-angle-up-l.svg&quot;)"></span><span class="czs-angle-down-l" style="background-image:url(&quot;assets/czs-angle-down-l.svg&quot;)"></span></a><ol><li class=""><a href="Conclusion/Getting-Help.html" class="nav_link">获取帮助</a></li><li class=""><a href="Conclusion/Whats-Next.html" class="nav_link">下一步是什么？</a></li></ol></li></ol></aside><section class="main"><div class="main_article"><article><h2 id="数据库">数据库<a class="anchor" href="State/Databases.html#数据库">§</a></h2>
+<p>Rocket包含与数据库无关的内置ORM支持。特别是，Rocket提供了一个过程宏，使您可以轻松地通过连接池将Rocket应用程序连接到数据库。<em>数据库连接池</em>是一个数据结构，保持在应用程序以后使用活动的数据库连接。连接池支持的此实现基于<a href="https://crates.io/crates/r2d2"><code>r2d2</code></a>请求防护并通过请求防护公开连接。数据库是通过Rocket的常规配置机制分别配置的：<code>Rocket.toml</code>文件，环境变量或过程。</p>
+<p>使用此库将Rocket应用程序连接到数据库只需三个简单步骤：</p>
+<ol>
+<li>在中配置数据库<code>Rocket.toml</code>。</li>
+<li>将请求防护类型和整流罩与每个数据库相关联。</li>
+<li>使用请求防护在处理程序中检索连接。</li>
+</ol>
+<p>目前，Rocket提供了对以下数据库的内置支持：</p>
+<table>
+<thead>
+<tr>
+<th>种类Kind</th>
+<th>驱动程序Driver</th>
+<th>Version</th>
+<th><code>Poolable</code> Type</th>
+<th>功能Feature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MySQL</td>
+<td><a href="https://diesel.rs/">Diesel</a></td>
+<td><code>1</code></td>
+<td><a href="http://docs.diesel.rs/diesel/mysql/struct.MysqlConnection.html"><code>diesel::MysqlConnection</code></a></td>
+<td><code>diesel_mysql_pool</code></td>
+</tr>
+<tr>
+<td>MySQL</td>
+<td><a href="https://github.com/blackbeam/rust-mysql-simple"><code>rust-mysql-simple</code></a></td>
+<td><code>16</code></td>
+<td><a href="https://docs.rs/mysql/14.0.0/mysql/struct.Conn.html"><code>mysql::conn</code></a></td>
+<td><code>mysql_pool</code></td>
+</tr>
+<tr>
+<td>Postgres</td>
+<td><a href="https://diesel.rs/">Diesel</a></td>
+<td><code>1</code></td>
+<td><a href="http://docs.diesel.rs/diesel/pg/struct.PgConnection.html"><code>diesel::PgConnection</code></a></td>
+<td><code>diesel_postgres_pool</code></td>
+</tr>
+<tr>
+<td>Postgres</td>
+<td><a href="https://github.com/sfackler/rust-postgres">Rust-Postgres</a></td>
+<td><code>0.15</code></td>
+<td><a href="https://docs.rs/postgres/0.15.2/postgres/struct.Connection.html"><code>postgres::Connection</code></a></td>
+<td><code>postgres_pool</code></td>
+</tr>
+<tr>
+<td>Sqlite</td>
+<td><a href="https://diesel.rs/">Diesel</a></td>
+<td><code>1</code></td>
+<td><a href="http://docs.diesel.rs/diesel/prelude/struct.SqliteConnection.html"><code>diesel::SqliteConnection</code></a></td>
+<td><code>diesel_sqlite_pool</code></td>
+</tr>
+<tr>
+<td>Sqlite</td>
+<td><a href="https://github.com/jgallagher/rusqlite"><code>Rustqlite</code></a></td>
+<td><code>0.16</code></td>
+<td><a href="https://docs.rs/rusqlite/0.14.0/rusqlite/struct.Connection.html"><code>rusqlite::Connection</code></a></td>
+<td><code>sqlite_pool</code></td>
+</tr>
+<tr>
+<td>Neo4j</td>
+<td><a href="https://github.com/livioribeiro/rusted-cypher"><code>rusted_cypher</code></a></td>
+<td><code>1</code></td>
+<td><a href="https://docs.rs/rusted_cypher/1.1.0/rusted_cypher/graph/struct.GraphClient.html"><code>rusted_cypher::GraphClient</code></a></td>
+<td><code>cypher_pool</code></td>
+</tr>
+<tr>
+<td>Redis</td>
+<td><a href="https://github.com/mitsuhiko/redis-rs"><code>redis-rs</code></a></td>
+<td><code>0.10</code></td>
+<td><a href="https://docs.rs/redis/0.9.0/redis/struct.Connection.html"><code>redis::Connection</code></a></td>
+<td><code>redis_pool</code></td>
+</tr>
+<tr>
+<td>MongoDB</td>
+<td><a href="https://github.com/mongodb-labs/mongo-rust-driver-prototype"><code>mongodb</code></a></td>
+<td><code>0.3.12</code></td>
+<td><a href="https://docs.rs/mongodb/0.3.12/mongodb/db/type.Database.html"><code>mongodb::db::Database</code></a></td>
+<td><code>mongodb_pool</code></td>
+</tr>
+<tr>
+<td>Memcache</td>
+<td><a href="https://github.com/aisk/rust-memcache"><code>memcache</code></a></td>
+<td><code>0.11</code></td>
+<td><a href="https://docs.rs/memcache/0.11.0/memcache/struct.Client.html"><code>memcache::Client</code></a></td>
+<td><code>memcache_pool</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="用法">用法<a class="anchor" href="State/Databases.html#用法">§</a></h3>
+<p>要将您的Rocket应用程序连接到给定的数据库，请首先在与您的环境相匹配的表中标识“种类”和“驱动程序”。必须启用与您的数据库类型相对应的功能。这是在“功能”列中标识的功能。例如，对于Diesel-based SQLite 数据库，您应该输入<code>Cargo.toml</code>：</p>
+<pre class="language-autoit"><code class="language-autoit"><span class="token punctuation">[</span>dependencies<span class="token punctuation">.</span>rocket_contrib<span class="token punctuation">]</span>
+version <span class="token operator">=</span> <span class="token string">"0.4.2"</span>
+<span class="token keyword">default</span><span class="token operator">-</span>features <span class="token operator">=</span> <span class="token boolean">false</span>
+features <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"diesel_sqlite_pool"</span><span class="token punctuation">]</span>
+</code></pre>
+<p>然后，在<code>Rocket.toml</code>环境变量中（或等效于环境变量），在<code>databases</code>表中配置数据库的URL ：</p>
+<pre class="language-autoit"><code class="language-autoit"><span class="token punctuation">[</span><span class="token keyword">global</span><span class="token punctuation">.</span>databases<span class="token punctuation">]</span>
+sqlite_logs <span class="token operator">=</span> { url <span class="token operator">=</span> <span class="token string">"/path/to/database.sqlite"</span> }
+</code></pre>
+<p>在应用程序的源代码中，创建一个具有一个内部类型的类似单元的结构。此类型应为“<code>Poolable</code>类型”列中列出的类型。然后用 <code>#[database]</code>属性装饰类型，提供在上一步中配置为唯一参数的数据库的名称。最后，附加 <code>YourType::fairing()</code>返回的整流罩，该整流罩由<code>#[database]</code>属性生成：</p>
+<pre class="language-rust"><code class="language-rust"><span class="token attribute attr-name">#[macro_use]</span> <span class="token keyword">extern</span> <span class="token keyword">crate</span> rocket_contrib<span class="token punctuation">;</span>
+
+<span class="token keyword">use</span> rocket_contrib<span class="token punctuation">::</span>databases<span class="token punctuation">::</span>diesel<span class="token punctuation">;</span>
+
+<span class="token attribute attr-name">#[database(<span class="token string">"sqlite_logs"</span>)]</span>
+<span class="token keyword">struct</span> LogsDbConn<span class="token punctuation">(</span>diesel<span class="token punctuation">::</span>SqliteConnection<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">fn</span> <span class="token function-definition function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    rocket<span class="token punctuation">::</span><span class="token function">ignite</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+       <span class="token punctuation">.</span><span class="token function">attach</span><span class="token punctuation">(</span>LogsDbConn<span class="token punctuation">::</span><span class="token function">fairing</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+       <span class="token punctuation">.</span><span class="token function">launch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>就这样！每当需要连接到数据库时，请使用您的类型作为请求保护：</p>
+<pre class="language-rust"><code class="language-rust"><span class="token attribute attr-name">#[get(<span class="token string">"/logs/&lt;id>"</span>)]</span>
+<span class="token keyword">fn</span> <span class="token function-definition function">get_logs</span><span class="token punctuation">(</span>conn<span class="token punctuation">:</span> LogsDbConn<span class="token punctuation">,</span> id<span class="token punctuation">:</span> <span class="token keyword">usize</span><span class="token punctuation">)</span> <span class="token punctuation">-></span> Result<span class="token operator">&lt;</span>Logs<span class="token operator">></span> <span class="token punctuation">{</span>
+    logs<span class="token punctuation">::</span><span class="token function">filter</span><span class="token punctuation">(</span>id<span class="token punctuation">.</span><span class="token function">eq</span><span class="token punctuation">(</span>log_id<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token operator">&amp;</span><span class="token operator">*</span>conn<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>如果应用程序使用默认情况下不可用的数据库引擎功能，例如支持<code>chrono</code>或<code>uuid</code>，则可以通过在<code>Cargo.toml</code>中添加这些功能来启用这些功能，如下所示：</p>
+<pre class="language-autoit"><code class="language-autoit"><span class="token punctuation">[</span>dependencies<span class="token punctuation">]</span>
+postgres <span class="token operator">=</span> { version <span class="token operator">=</span> <span class="token string">"0.15"</span><span class="token punctuation">,</span> features <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"with-chrono"</span><span class="token punctuation">]</span> }
+</code></pre>
+<p>有关Rocket内置数据库支持的更多信息，请参阅<a href="https://api.rocket.rs/v0.4/rocket_contrib/databases/index.html"><code>rocket_contrib::databases</code></a>模块文档。</p></article><div class="prev_next"><a class="prev button" href="State/Request-Local-State.html">«  <!-- -->请求本地状态</a><a class="next button" href="Fairings/Overview.html">概述<!-- -->  »</a></div></div><div class="main_toc_container nav_link_container"><div class="main_toc"><aside><nav class="toc"><ol><li><a href="State/Databases.html#数据库">数据库</a><ol><li><a href="State/Databases.html#用法">用法</a></li></ol></li></ol></nav></aside></div></div></section><footer>Powered by<!-- --> <a href="https://gitee.com/villezuo/markdoc" target="_blank">Markdoc</a></footer><script crossorigin="anonymous" src="https://unpkg.com/react@16.13.1/umd/react.production.min.js"></script><script crossorigin="anonymous" src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js"></script><script src="index.js"></script></body></html>
